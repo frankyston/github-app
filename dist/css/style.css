@@ -1,0 +1,62 @@
+*{
+  box-sizing: border-box;
+}
+.search input{
+  width: 100%;
+  padding: 10px 5px !important;
+  font-size: 14px;
+  margin: 10px 0px;
+}
+
+.user-info{
+  display: flex;
+  flex-direction: row;
+  margin: 10px 0px;
+}
+
+.user-info .avatar{
+  margin-right: 10px;
+  width: 233px;
+}
+
+.user-info .avatar img{
+  border-radius: 5px;
+  width: 233px;
+  height: 233px;
+}
+
+.user-info .info{
+  width: 233px;
+}
+
+.user-info .info h2{
+  margin: 0px;
+}
+
+.user-info .info .repos-info{
+  list-style: none;
+  margin: 20px 0px 0px 0px;
+  padding: 0px;
+}
+
+.user-info .info .repos-info li{
+  margin: 6px 0px;
+}
+
+.actions button{
+  padding: 10px;
+  font-size: 12px;
+  font-weight: 300;
+  margin-right: 10px;
+  width: 150px;
+}
+
+.repos ul, .starred ul{
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+.repos ul li, .starred ul li{
+  margin: 5px 0px;
+}
